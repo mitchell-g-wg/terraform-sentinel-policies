@@ -19,7 +19,8 @@ param resource_types default [
 ]
 
 # List of mandatory tags
-param mandatory_tags default ["environment"]
+# param mandatory_tags default ["environment"]
+param mandatory_tags default ["CostCenter","Department","LegalSubEntity","SubDivision",WHEnvironment","WHProject","Workstream"]
 
 # Get all Azure Resources with standard tags
 allAzureResourcesWithStandardTags =
